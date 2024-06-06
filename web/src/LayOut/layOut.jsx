@@ -1,10 +1,16 @@
 import {Outlet, RouterProvider,createBrowserRouter} from 'react-router-dom'
-
+// pages................
 import Login from '../page/login/Login';
 import Signup from '../page/signup/Signup'; // Correct import
 import Home from '../page/home/Home';
 import Profile from '../page/profile/Profile';
 import ChatBox from '../page/Chatbox/ChatBox';
+
+//components...............
+import Nav from '../components/nav/Nav';
+import LeftBar from '../components/leftbar/LeftBar';
+import RightBar from '../components/rightbar/RightBar';
+
 
 export default function Layout() {
 
@@ -13,16 +19,18 @@ export default function Layout() {
 const Feed =()=>{
   return(
     <>
+    <Nav/>
     <main>
-      <div className="contaner">
+      <LeftBar/>
+      <div className="container">
         <Outlet />
       </div>
+      <RightBar/>
     </main>
 
     </>
   )
 }
-
 
 // Router..........................
 
