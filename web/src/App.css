@@ -5,6 +5,9 @@
     text-align: none;
     list-style: none;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    outline: none;
+    border: none;
 }
 
 :root{
@@ -15,6 +18,16 @@
     --color-soft: #aaaaaa;
     --color-border: lightgray;
     --color-red: red;
+}
+
+.darkmood{
+    --text-color : white;
+    --color-bg: black;
+    --color-card: #111111;
+
+}
+body{
+    overflow-x:hidden ;
 }
 
 .container{

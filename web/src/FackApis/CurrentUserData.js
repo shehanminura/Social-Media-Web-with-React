@@ -1,5 +1,5 @@
 
-import ProfieImage from '../assets/img/CurentProfile.jpeg';
+import ProfieImage from '../assets/img/CurentProfile.jpg';
 import CoverPhoto from '../assets/img/CoverPhotos.jpg';
 
 const CurrentUser = [

@@ -1,0 +1,15 @@
+.rightBar{
+    height: calc(100vh - 3.6rem);
+    
+    position: static;
+    top: 3.6rem;
+    overflow: auto;
+}
+
+.rightBar::-webkit-scrollbar{
+    display: none;
+}
+.right-container{
+    width: 80%;
+    margin: 0 auto;
+}
