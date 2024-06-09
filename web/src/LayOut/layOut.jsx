@@ -44,11 +44,11 @@ const Feed =()=>{
           element:<Home/>
         },
         {
-          path:'/profile/:id',
+          path:'/profile/id',
           element:<Profile/>
         },
         {
-          path:'/chatbox/:id',
+          path:'/chatbox/id',
           element:<ChatBox/>
         },
       ]

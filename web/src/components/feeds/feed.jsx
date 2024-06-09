@@ -1,3 +1,5 @@
+// src/components/Feed.jsx
+
 import './feeds.css';
 import { Link } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
@@ -8,9 +10,9 @@ import Comments from '../comments/Comments';
 export default function Feed({ fed }) {
   const [openComment, setOpenComment] = useState(false);
 
-  const CommentHandeler = () => {
+  const CommentHandler = () => {
     setOpenComment(!openComment);
-  }
+  };
 
   return (
     <div className='feed'>
@@ -36,14 +38,13 @@ export default function Feed({ fed }) {
         <div className='action-item'>
           <span><FontAwesomeIcon icon={faHeart} />14 Likes</span>
         </div>
-        <div className='action-item' onClick={CommentHandeler}>
+        <div className='action-item' onClick={CommentHandler}>
           <span><FontAwesomeIcon icon={faComment} />2 Comments</span>
         </div>
         <div className='action-item'>
           <span><FontAwesomeIcon icon={faShare} />1 Share</span>
         </div>
       </div>
-
       {openComment && <Comments />}
     </div>
   );
