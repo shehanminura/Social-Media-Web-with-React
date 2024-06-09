@@ -11,5 +11,19 @@
 }
 .right-container{
     width: 80%;
-    margin: 0 auto;
+}
+
+/*......Start Media Scrin .......*/
+
+@media (max-width:1024px){
+    .right-container{
+        width: 90%;
+    }
+}
+
+@media (max-width:768px){
+    .rightBar{
+        display: none;
+    }
+
 }
