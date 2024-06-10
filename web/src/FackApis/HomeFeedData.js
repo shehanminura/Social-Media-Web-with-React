@@ -15,17 +15,17 @@ import feedProfile13 from '../assets/img/FeedProfile13.jpg';
 
 
 import FeedImage1 from '../assets/img/feed1.jpg'
-import FeedImage2 from '../assets/img/feed2.jpg'
+import FeedImage2 from '../assets/img/feed20.jpg'
 import FeedImage3 from '../assets/img/feed3.jpg'
-import FeedImage4 from '../assets/img/feed4.jpg'
-import FeedImage5 from '../assets/img/feed5.jpg'
+import FeedImage4 from '../assets/img/feed14.jpg'
+import FeedImage5 from '../assets/img/feed15.jpg'
 import FeedImage6 from '../assets/img/feed6.jpg'
-import FeedImage7 from '../assets/img/feed7.jpg'
-import FeedImage8 from '../assets/img/feed8.jpg'
-import FeedImage9 from '../assets/img/feed9.png'
+import FeedImage7 from '../assets/img/feed16.png'
+import FeedImage8 from '../assets/img/feed17.webp'
+import FeedImage9 from '../assets/img/feed18.jpg'
 import FeedImage10 from '../assets/img/feed10.jpg'
 import FeedImage11 from '../assets/img/feed11.jpg'
-import FeedImage12 from '../assets/img/feed12.jpg'
+import FeedImage12 from '../assets/img/feed19.jfif'
 import FeedImage13 from '../assets/img/feed13.jpg'
 
 const Feeds =[
@@ -35,7 +35,15 @@ const Feeds =[
         name: 'Lana White',
         feedImage: FeedImage1,
         feedProfile: feedProfile1,
-        desc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam, distinctio'
+        desc: 'Came to Sri Lanka on vacation with my wife. Sigiriya is another place that made our life beautiful ❤️❤️❤️ '	
+    },
+    {
+        id: 2,
+        userid: 2,
+        name: 'Dodo Vincey',
+        feedImage: FeedImage2,
+        feedProfile: feedProfile2,
+        desc: 'I had such a beautiful experience for the first time. I love Sri Lanka. 😍😍'
     },
     {
         id: 3,
@@ -43,7 +51,7 @@ const Feeds =[
         name: 'Dodo Vincey',
         feedImage: FeedImage3,
         feedProfile: feedProfile3,
-        desc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam, distinctio'
+        desc: 'This is a crazy experience 🤪🤪'
     },
     {
         id: 4,
@@ -51,7 +59,7 @@ const Feeds =[
         name: 'Emaly Shea',
         feedImage: FeedImage4,
         feedProfile: feedProfile4,
-        desc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam, distinctio'
+        desc: ' A picnic with friends 🤪❤️'
     },
     {
         id: 5,
@@ -59,7 +67,7 @@ const Feeds =[
         name: 'Fatema Anny',
         feedImage: FeedImage5,
         feedProfile: feedProfile5,
-        desc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam, distinctio'
+        desc: 'Join us if you want to learn coding.🚀🚀'
     },
     {
         id: 6,
@@ -67,7 +75,7 @@ const Feeds =[
         name: 'Evrahim Alli',
         feedImage: FeedImage6,
         feedProfile: feedProfile6,
-        desc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam, distinctio'
+        desc: 'Today is a very tiring day 🤯🤯'
     },
     {
         id: 7,
@@ -75,7 +83,7 @@ const Feeds =[
         name: 'Mohammed Nabi',
         feedImage: FeedImage7,
         feedProfile: feedProfile7,
-        desc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam, distinctio'
+        desc: 'My childhood dream came true today.😍😍'
     },
     {
         id: 8,
@@ -83,7 +91,15 @@ const Feeds =[
         name: 'Ema Cliopetra',
         feedImage: FeedImage8,
         feedProfile: feedProfile8,
-        desc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam, distinctio'
+        desc: 'World football championship. ✨✨ '
+    },  
+    {
+        id: 9,
+        userid: 9,
+        name: 'Ema Cliopetra',
+        feedImage: FeedImage9,
+        feedProfile: feedProfile9,
+        desc: 'Our little family ❤️'
     },  
     {
         id: 10,
@@ -91,7 +107,7 @@ const Feeds =[
         name: 'Muskan Khan',
         feedImage: FeedImage10,
         feedProfile: feedProfile10,
-        desc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam, distinctio'
+        desc: 'A small meal with friends 🍔🍔 '
     },
     {
         id: 11,
@@ -99,7 +115,7 @@ const Feeds =[
         name: 'Nuva Akhi',
         feedImage: FeedImage11,
         feedProfile: feedProfile11,
-        desc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam, distinctio'
+        desc: 'With my little pet ❤️❤️'
     },
     {
         id: 12,
@@ -107,7 +123,7 @@ const Feeds =[
         name: 'David Milar',
         feedImage: FeedImage12,
         feedProfile: feedProfile12,
-        desc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam, distinctio'
+        desc: 'Expect the newest robot in the near future 🤖⚙️'
     },
     {
         id: 13,
@@ -115,7 +131,7 @@ const Feeds =[
         name: 'Malkova Williams',
         feedImage: FeedImage13,
         feedProfile: feedProfile13,
-        desc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam, distinctio'
+        desc: 'My little office ❤️'
     },
 ];
 
