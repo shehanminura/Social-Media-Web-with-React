@@ -19,7 +19,7 @@ export default function Nav() {
 
         {/*............NavAria Left............*/}
         <div className='nav-left'>
-          <Link to='/'>
+          <Link to='/login'>
               <h3 className='logo'>NapaExtra</h3>
           </Link>
           <Link to='/'>
